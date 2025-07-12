@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-16 px-6 text-center animate-fade-in"
+      className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-25 px-6 text-center animate-fade-in"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-slide-up">
         About <span className="text-black"> Me</span>
