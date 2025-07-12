@@ -41,7 +41,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-16 px-4 sm:px-8"
+      className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-60 py-40 sm:px-8"
     >
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">My <span className="text-black">Projects</span></h2>
 

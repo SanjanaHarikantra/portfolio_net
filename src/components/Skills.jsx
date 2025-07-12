@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 text-white py-14 px-4"
+      className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 text-white p-40"
     >
       <h2 className="text-4xl font-bold text-center mb-10">
         Tech <span className="text-black drop-shadow">Stack</span>
