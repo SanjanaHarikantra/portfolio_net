@@ -28,7 +28,7 @@ const Home = () => {
       <div className="mt-8 flex flex-wrap gap-4 justify-center">
         {/* Download Resume */}
         <a
-          href="/Sanjana_Resume.pdf"
+          href="C:\Users\sanja\OneDrive\Desktop\SResume.pdf"
           download
           className="bg-white text-pink-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-pink-100 transition duration-300"
         >

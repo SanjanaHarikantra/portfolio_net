@@ -48,7 +48,8 @@ const Skills = () => {
 };
 
 const SkillCard = ({ title, skills }) => (
-  <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6">
+  <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:scale-105 transition-transform duration-300"
+          >
     <h3 className="text-xl font-semibold text-white mb-4">{title}</h3>
     <div className="flex flex-wrap gap-4">
       {skills.map((skill, index) => (
