@@ -75,3 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> 1d5926f3fd4211592060fb642ec5ba5fe14be8a1
 "# Memory_Application" 
+"# creator-insight-app" 
