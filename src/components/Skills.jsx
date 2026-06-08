@@ -9,13 +9,13 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 text-white p-40"
+      className="bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-20 text-white sm:px-8 sm:py-24 lg:px-12 lg:py-32"
     >
-      <h2 className="text-4xl font-bold text-center mb-10">
+      <h2 className="mb-10 text-center text-3xl font-bold sm:text-4xl">
         Tech <span className="text-black drop-shadow">Stack</span>
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8">
         {/* Reusable card for each section */}
         <SkillCard title="Frontend" skills={[
           { icon: <FaHtml5 color="#e34c26" />, label: "HTML5" },
@@ -48,17 +48,17 @@ const Skills = () => {
 };
 
 const SkillCard = ({ title, skills }) => (
-  <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:scale-105 transition-transform duration-300"
+  <div className="rounded-lg border border-white/20 bg-white/10 p-5 backdrop-blur-md transition-transform duration-300 hover:scale-[1.02] sm:p-6"
           >
-    <h3 className="text-xl font-semibold text-white mb-4">{title}</h3>
-    <div className="flex flex-wrap gap-4">
+    <h3 className="mb-4 text-xl font-semibold text-white">{title}</h3>
+    <div className="flex flex-wrap gap-3 sm:gap-4">
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="flex items-center gap-2 bg-white/10 px-3 py-2 rounded-lg hover:scale-105 transition-transform duration-200"
+          className="flex min-w-0 items-center gap-2 rounded-lg bg-white/10 px-3 py-2 text-sm transition-transform duration-200 hover:scale-105 sm:text-base"
         >
           <span>{skill.icon}</span>
-          <span>{skill.label}</span>
+          <span className="truncate">{skill.label}</span>
         </div>
       ))}
     </div>
