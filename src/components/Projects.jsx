@@ -75,7 +75,7 @@ const Projects = () => {
                 href={project.github}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-4 py-2 text-center font-semibold text-pink-600 transition duration-300 hover:bg-pink-200"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-4 py-2 text-center font-semibold text-pink-600 transition duration-300 hover:bg-pink-100"
               >
                 <FaGithub />
                 GitHub
