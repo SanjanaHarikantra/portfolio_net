@@ -49,7 +49,7 @@ const Contact = () => {
 
       <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
         <a
-          href="/resume.pdf"
+          href="#home"
           target="_blank"
           rel="noreferrer"
           className="rounded-lg bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200"
