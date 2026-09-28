@@ -28,7 +28,7 @@ const Home = () => {
       <div className="mt-8 flex w-full max-w-md flex-col justify-center gap-4 sm:flex-row">
         {/* Download Resume */}
         <a
-          href="https://drive.google.com/file/d/1bFBTDW8KyTSHNeGJIzIXnpAbvCyPBL29/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1KXRiyktCez6o847aNrvipP5tq9uog5ym/view?usp=drivesdk"
           download
           className="rounded-lg bg-white px-6 py-3 font-semibold text-pink-600 shadow-md transition duration-300 hover:bg-pink-100"
         >
